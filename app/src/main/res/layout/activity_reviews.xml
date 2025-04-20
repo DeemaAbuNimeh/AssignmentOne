@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Reviews">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="312dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/pnlogo" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="379dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/playfair_display_bold"
+        android:text="@string/tell_us_what_you_think_gorgeous_leave_us_a_review_on_your_fave_product"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/playfair_display_bold"
+            android:text="@string/item_name"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/item_name"
+            android:inputType="text"
+            android:textColorHint="#A17C6D6D" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="359dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/playfair_display_bold"
+        android:hint="@string/please_leave_a_review_here_gorg"
+        android:inputType="text"
+        android:textColorHint="#7C6D6DA1" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="232dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFCECE"
+        android:fontFamily="@font/playfair_display_bold"
+        android:text="@string/submit_review"
+        android:textAllCaps="true"
+        android:textColor="#D0000000"
+        android:textStyle="bold"
+        app:cornerRadius="0dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#FFCECE"
+        android:fontFamily="@font/playfair_display_bold"
+        android:text="@string/back_to_navigation"
+        android:textAllCaps="true"
+        android:textColor="#D0000000"
+        android:textStyle="bold"
+        app:cornerRadius="0dp" />
+</LinearLayout>
